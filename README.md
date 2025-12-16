@@ -39,4 +39,4 @@ thoughtBench exists because “it works in Terminal” isn’t good enough for r
 - MVP-4: “workspaces” (Swift/Python/HTML consoles) + export
 
 ## License
-TBD (start permissive while we validate traction).
+Apache License 2.0. See the `LICENSE` file for details.
