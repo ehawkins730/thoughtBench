@@ -1,0 +1,78 @@
+# thoughtBench Roadmap
+
+This roadmap describes major capability milestones. Dates are intentionally omitted — this project optimizes for correctness, usability, and power over speed.
+
+---
+
+## MVP-1 (Foundation) ✅
+**Status:** Complete
+
+- Native SwiftUI app (macOS + iPadOS)
+- SQLite-backed persistence
+  - Conversations
+  - Messages
+  - Attachments metadata
+- File import surface (foundation)
+- Chat UI scaffolding
+- Console-style layout groundwork
+- Local-first storage philosophy established
+
+---
+
+## MVP-2 (Core LLM Workbench) 🚧
+**Status:** In progress  
+**This is the first *usable* release**
+
+- Local LLM engine integration
+- Model manager
+  - Persistent model locations
+  - External drives supported
+  - Multiple roots allowed
+- Per-message controls
+  - Edit prompt (row-specific)
+  - Try again (same context)
+  - Response grading
+- Chat history persistence
+- Model selection per conversation
+- Keep-alive + session reuse
+- Zero-terminal usage required
+
+---
+
+## MVP-3 (File Intelligence)
+- Native file parsing
+  - PDF
+  - DOCX
+  - XLSX / XLSM
+  - Images
+- Preview + reference inside chat
+- Attachment-aware prompting
+- Retrieval groundwork (non-embedding-first)
+
+---
+
+## MVP-4 (Workspaces)
+- Dedicated workspaces
+  - Swift
+  - Python
+  - HTML/JS
+- Console views per workspace
+- Export snippets
+- Iterative comparison tools
+
+---
+
+## MVP-5 (Power User + Automation)
+- Prompt templates
+- Response scoring analytics
+- Workflow macros
+- Local agents
+- Optional cloud sync (explicit opt-in)
+
+---
+
+## Long-term
+- Plugin system
+- Model benchmarking
+- Team/local-network sharing
+- Enterprise/private model support
